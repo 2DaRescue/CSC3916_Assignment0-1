@@ -1,0 +1,22 @@
+request 1 & 2 are the same
+    get
+        Postman-Token            :<Calcualted when request is sent>
+        Host                     :<Calcualted when request is sent>
+        User-Agent               :PostmanRuntime/7.43.0
+        Accept                   :*/*
+        Accept-Encoding          :gzip, deflate, br
+        Connection:              :keep-alive
+
+    Responce
+        Content-Type             :application/json; charset=UTF-8
+        Vary                     :Origin
+        Vary                     :X-Origin
+        Vary                     :Referer
+        Content-Encoding         :gzip
+        Date                     :Sun, 02 Feb 2025 20:32:16 GMT
+        Server                   :ESF
+        X-XSS-Protection         :0
+        X-Frame-Options          :SAMEORIGIN
+        X-Content-Type-Options   :nosniff
+        Alt-Svc                  :h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+        Transfer-Encoding        :chunked

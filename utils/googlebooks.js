@@ -19,6 +19,16 @@ module.exports = async (phrase) => {
         requestHeader: results.config.headers
     }
 
+    
+    var newFormattedObj={
+        data: response.data, 
+        status: response.status, 
+        statusText: response.statusText, 
+        headers: response.headers,
+        requestHeader: response.config.headers
+    }
+    
+
     //TODO: return the formattedObject
-    return JSON.stringify(results.data);
+    return JSON.stringify(newFormattedObj);
 }
