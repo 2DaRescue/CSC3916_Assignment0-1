@@ -7,7 +7,7 @@ request 1 & 2 are the same
         Accept-Encoding          :gzip, deflate, br
         Connection:              :keep-alive
 
-    Responce
+    Response
         Content-Type             :application/json; charset=UTF-8
         Vary                     :Origin
         Vary                     :X-Origin
